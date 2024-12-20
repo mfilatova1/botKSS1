@@ -1,3 +1,10 @@
+"""
+Модуль main.py предназначен для запуска чат бота и всех его функций.
+В модуле расположены хэндлеры - обработчики для команд и кнопок reply и inline клавиатур
+"""
+
+
+
 from aiogram import Bot, Dispatcher, executor, types
 from aiogram.contrib.fsm_storage.memory import MemoryStorage
 from aiogram.dispatcher import FSMContext

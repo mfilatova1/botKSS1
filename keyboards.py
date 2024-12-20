@@ -1,3 +1,8 @@
+"""
+Модуль keyboards.py.
+В модуле расположены reply и inline клавиатуры.
+"""
+
 
 from aiogram.types import ReplyKeyboardRemove, ReplyKeyboardMarkup, KeyboardButton, InlineKeyboardMarkup, InlineKeyboardButton
 
@@ -57,16 +62,16 @@ start_kb2 = ReplyKeyboardMarkup(
 teachers_kb = InlineKeyboardMarkup(
     inline_keyboard=[
         [
-            InlineKeyboardButton(text = 'Шапошникова Анастасия Васильевна', callback_data = 'Шапошникова Анастасия Васильевна'),
+            InlineKeyboardButton(text = '✨Шапошникова Анастасия Васильевна', callback_data = 'Шапошникова Анастасия Васильевна'),
         ],
         [
-            InlineKeyboardButton(text = 'Карпова Валентина Алексеевна', callback_data = 'Карпова Валентина Алексеевна'),
+            InlineKeyboardButton(text = '✨Карпова Валентина Алексеевна', callback_data = 'Карпова Валентина Алексеевна'),
         ],
         [
-            InlineKeyboardButton(text='Кялина Александра Семеновна', callback_data='Кялина Александра Семеновна'),
+            InlineKeyboardButton(text='✨Кялина Александра Семеновна', callback_data='Кялина Александра Семеновна'),
         ],
         [
-            InlineKeyboardButton(text='Алексахина Васелина Игоревна', callback_data='Алексахина Васелина Игоревна'),
+            InlineKeyboardButton(text='✨Алексахина Васелина Игоревна', callback_data='Алексахина Васелина Игоревна'),
         ],
 
     ]
@@ -75,22 +80,22 @@ teachers_kb = InlineKeyboardMarkup(
 dance_styles_kb = InlineKeyboardMarkup(
     inline_keyboard=[
         [
-            InlineKeyboardButton(text = 'Hip-hop', callback_data = 'Hip-hop'),
+            InlineKeyboardButton(text = '🧢Hip-hop', callback_data = 'Hip-hop'),
         ],
         [
-            InlineKeyboardButton(text = 'Krump', callback_data = 'Krump'),
+            InlineKeyboardButton(text = '🔥Krump', callback_data = 'Krump'),
         ],
         [
-            InlineKeyboardButton(text = 'Afro', callback_data = 'Afro'),
+            InlineKeyboardButton(text = '🌴Afro', callback_data = 'Afro'),
         ],
 [
-            InlineKeyboardButton(text = 'K-pop', callback_data = 'K-pop'),
+            InlineKeyboardButton(text = '🫰K-pop', callback_data = 'K-pop'),
         ],
         [
-            InlineKeyboardButton(text = 'High Heels', callback_data = 'High Heels'),
+            InlineKeyboardButton(text = '👠High Heels', callback_data = 'High Heels'),
         ],
         [
-            InlineKeyboardButton(text='Waacking', callback_data='Waacking'),
+            InlineKeyboardButton(text='🫦Waacking', callback_data='Waacking'),
         ],
     ]
 )
